@@ -1,3 +1,13 @@
+puavo-wlan (0.12.13) trusty; urgency=medium
+
+  * New release
+  * parts/wlan: ap: limit max respawning rate to 3 times in 30s
+  * parts/wlan: ap: bring back the notorious driver whitelist
+  * parts/wlan: ap: use modalias as PHY product id
+  * Git(bcd696567528d189eba2560e8b5ab9b36e9f47f8)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Mon, 01 Feb 2016 17:46:05 +0200
+
 puavo-wlan (0.12.12) trusty; urgency=medium
 
   * New release
