@@ -1,3 +1,12 @@
+puavo-wlan (0.12.14) trusty; urgency=medium
+
+  * New release
+  * ap: kill empty vtunds when the last bridged hostapd dies
+  * ap: setup bridges just-in-time
+  * Git(01adddce7dd3f2bd64989150d666b4336e031d66)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Fri, 26 Feb 2016 15:36:28 +0200
+
 puavo-wlan (0.12.13) trusty; urgency=medium
 
   * New release
