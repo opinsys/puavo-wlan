@@ -854,20 +854,20 @@ class Host
     scanned_channels       = vif.scan
 
     selectable_channels    = predefined_channels + (scanned_channels - predefined_channels)
-    selectable_channels_2g = selectable_channels & Dot11::CHANNELS_2G
-    selectable_channels_5g = selectable_channels & Dot11::CHANNELS_5G
+    # selectable_channels_2g = selectable_channels & Dot11::CHANNELS_2G
+    # selectable_channels_5g = selectable_channels & Dot11::CHANNELS_5G
 
     selected_channels      = Set.new(@vifs.map { |v| v.phy.channel })
-    selected_channels_2g   = selected_channels & Dot11::CHANNELS_2G
-    selected_channels_5g   = selected_channels & Dot11::CHANNELS_5G
+    # selected_channels_2g   = selected_channels & Dot11::CHANNELS_2G
+    # selected_channels_5g   = selected_channels & Dot11::CHANNELS_5G
 
-    if selected_channels_2g.empty? && !selectable_channels_2g.empty?
-      vif.phy.channel = selectable_channels_2g[0]
-    elsif selected_channels_5g.empty? && !selectable_channels_5g.empty?
-      vif.phy.channel = selectable_channels_5g[0]
-    else
-      vif.phy.channel = selectable_channels[0]
-    end
+    # if selected_channels_2g.empty? && !selectable_channels_2g.empty?
+    #   vif.phy.channel = selectable_channels_2g[0]
+    # elsif selected_channels_5g.empty? && !selectable_channels_5g.empty?
+    #   vif.phy.channel = selectable_channels_5g[0]
+    # else
+    vif.phy.channel = selectable_channels[0]
+    # end
   end
 
   def add_phy(phy)
