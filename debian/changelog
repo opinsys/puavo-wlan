@@ -1,3 +1,19 @@
+puavo-wlan (0.13.0) trusty; urgency=medium
+
+  * New release
+  * ap: depend on a specific version of IAPP-patched hostapd
+  * parts/wlan: ap: set bridge IP only when reason is BOUND, RENEW,
+    REBIND or REBOOT
+  * parts/wlan: ap: use custom dhclient-script
+  * parts/wlan: ap: use the default route interface for IAPP broadcasts
+  * parts/wlan: ap: accept empty wlanap_basic_rates tag
+  * parts/wlan: ap: forbid 802.11b stations
+  * parts/wlan: ap: configure basic rates via device tags
+  * gw: use keepalive for vtund sessions
+  * Git(80b2519228c7070040479c838e976f6c94893df7)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Thu, 31 Mar 2016 13:27:55 +0300
+
 puavo-wlan (0.12.14) trusty; urgency=medium
 
   * New release
