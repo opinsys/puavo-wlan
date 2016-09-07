@@ -1,3 +1,12 @@
+puavo-wlan (0.13.1) trusty; urgency=medium
+
+  * New release
+  * controller: set the smallest bitrate unit to Kbit/s
+  * controller: display rx/tx rates in bits per sec
+  * Git(8f2e300d02f7909d5ba92414d75f8a3df58a21a8)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Wed, 07 Sep 2016 10:10:28 +0300
+
 puavo-wlan (0.13.0) trusty; urgency=medium
 
   * New release
