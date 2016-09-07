@@ -47,7 +47,6 @@ def _main():
             print("graph_args --base 1000 -l 0")
             print("graph_vlabel Count")
             print("graph_category network")
-            print("graph_scale no")
             print("graph_info This graph displays the number of different network elements of Puavo WLAN.")
 
             print("accesspoints.label accesspoints")
