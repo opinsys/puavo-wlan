@@ -1,3 +1,26 @@
+puavo-wlan (0.14.0) trusty; urgency=medium
+
+  * New release
+  * controller: set the smallest bitrate unit to Kbit/s
+  * controller: display rx/tx rates in bits per sec
+  * Git(8f2e300d02f7909d5ba92414d75f8a3df58a21a8)
+  * New release
+  * controller-munin-plugin: remove elements wildcard plugin
+  * controller-munin-plugin: transformed elements plugin to multigraph
+    plugin
+  * controller-munin-plugin: add multigraph plugin for showing WLAN
+    traffic
+  * controller-munin-plugin: move plugins to subdir
+  * controller-munin-plugin: add magic markers
+  * controller-munin-plugin: add wildcard plugin for listing element
+    counts per ap host
+  * controller-munin-plugin: add license header
+  * controller-munin-plugin: let munin scale the units
+  * Add new Munin plugin for collecting controller data
+  * Git(0e484f6d8fca9bb3f972dc2da47ac8ba7845490d)
+
+ -- Tuomas Räsänen <adm-tuomasjjrasanen@boot2.toimisto.opinsys.fi>  Sat, 10 Sep 2016 23:06:42 +0300
+
 puavo-wlan (0.13.1) trusty; urgency=medium
 
   * New release
