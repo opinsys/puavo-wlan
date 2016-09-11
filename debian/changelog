@@ -1,3 +1,17 @@
+puavo-wlan (0.15.0) trusty; urgency=low
+
+  * New release
+  * Remove controller-munin-plugin package
+  * controller-munin-plugin: fix empty state file issue
+  * controller-munin-plugin: merge plugins into one multigraph plugin
+  * controller-munin-plugin: refactor common code
+  * controller-munin-plugin: use U values for currently unavailable host
+    elements
+  * controller-munin-plugin: simplify redis key golf
+  * Git(fa74a0b0f3191a91db66676bca75ea32d56ac7b1)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Sun, 11 Sep 2016 23:51:25 +0300
+
 puavo-wlan (0.14.0) trusty; urgency=medium
 
   * New release
@@ -19,7 +33,7 @@ puavo-wlan (0.14.0) trusty; urgency=medium
   * Add new Munin plugin for collecting controller data
   * Git(0e484f6d8fca9bb3f972dc2da47ac8ba7845490d)
 
- -- Tuomas Räsänen <adm-tuomasjjrasanen@boot2.toimisto.opinsys.fi>  Sat, 10 Sep 2016 23:06:42 +0300
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Sat, 10 Sep 2016 23:06:42 +0300
 
 puavo-wlan (0.13.1) trusty; urgency=medium
 
