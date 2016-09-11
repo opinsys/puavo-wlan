@@ -9,6 +9,5 @@ override_dh_auto_install:
 	$(MAKE) -C mapper install DESTDIR=$(CURDIR)/debian/puavo-wlanmapper
 	$(MAKE) -C controller install DESTDIR=$(CURDIR)/debian/puavo-wlancontroller
 	$(MAKE) -C ruby-puavowlan install prefix=/usr DESTDIR=$(CURDIR)/debian/ruby-puavowlan
-	$(MAKE) -C controller-munin-plugin install prefix=/usr DESTDIR=$(CURDIR)/debian/puavo-wlancontroller-munin-plugin
 
 override_dh_install:

@@ -48,16 +48,6 @@ Description: Puavo's WLAN controller
  instances.
  .
 
-Package: puavo-wlancontroller-munin-plugin
-Architecture: any
-Depends: ${misc:Depends},
- python,
- python-redis
-Recommends: munin-node, puavo-wlancontroller
-Description: Munin plugin for Puavo's WLAN controller
- Fetches data from Puavo's WLAN controller to Munin.
- .
-
 Package: puavo-wlangw
 Architecture: all
 Depends: ${misc:Depends},
