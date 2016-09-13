@@ -1,3 +1,18 @@
+puavo-wlan (0.16.0) trusty; urgency=medium
+
+  * New release
+  * controller: show total number of each network element in the main
+    page
+  * controller: improve automatic reload checkbox label
+  * controller: do not show hosts not having any radios
+  * ap: fix status report interval
+  * controller: update ttl when any report comes in
+  * controller: add method for updating tempstore's ttl
+  * controller: sort status results initially by hostname
+  * Git(1e01f2a1f799ac8e0386719728631460ce14c3ab)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 13 Sep 2016 15:46:32 +0300
+
 puavo-wlan (0.15.1) trusty; urgency=medium
 
   * New release
