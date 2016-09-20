@@ -1,3 +1,22 @@
+puavo-wlan (0.17.0) trusty; urgency=medium
+
+  * New release
+  * Add puavo-wlanmapper to puavo-wlanap's dependencies
+  * ap: simplify status report generation
+  * ap: fix vif rate calculations
+  * ap: rename method: Vif.update_stats() => Vif.update_status()
+  * ap: store hostapds in a vif.name => service map
+  * ap: remove phy attribute from Hostapd
+  * ap: refactor rx/tx rate calculations
+  * ap: measure and report station RSSIs
+  * ap: add support for spawning processes with optional kwargs
+  * ap: make dhclient script executable
+  * controller: fix Kbit => kbit
+  * controller: display station RSSI
+  * Git(3810d8ac6d54564a1ea227423bc35b55f3ed05ce)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 20 Sep 2016 11:17:12 +0300
+
 puavo-wlan (0.16.0) trusty; urgency=medium
 
   * New release
