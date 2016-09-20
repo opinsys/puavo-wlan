@@ -1,3 +1,18 @@
+puavo-wlan (0.18.0) trusty; urgency=medium
+
+  * New release
+  * controller: show either hostname or MAC of each station
+  * controller: filter out question mark hostnames from ARP results
+  * controller: display AP hostname of each station
+  * controller: get MAC of AP's radio from the current radio object
+  * controller: do not show ip address of stations
+  * controller: do not show product id of radios
+  * controller: display radio and station vendors
+  * controller: add support for getting OUI vendor by MAC
+  * Git(97c1781a83b284451e75af65ed8a71a5f445e3a5)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 20 Sep 2016 14:06:19 +0300
+
 puavo-wlan (0.17.0) trusty; urgency=medium
 
   * New release
