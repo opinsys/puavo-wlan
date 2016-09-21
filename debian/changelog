@@ -1,3 +1,16 @@
+puavo-wlan (0.19.0) trusty; urgency=medium
+
+  * New release
+  * ap: add missing attribute reader
+  * ap: log configuration changes
+  * ap: simplify configuration queries
+  * ap: fix divide-by-zero
+  * ap: add tags for configuring RSSI kick threshold and interval
+  * ap: implement soft station kick based on RSSI
+  * Git(53ba8037f81b78f518eeb0e143ea5910744db16e)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Wed, 21 Sep 2016 15:56:40 +0300
+
 puavo-wlan (0.18.0) trusty; urgency=medium
 
   * New release
