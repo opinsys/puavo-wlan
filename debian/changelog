@@ -1,3 +1,12 @@
+puavo-wlan (0.20.0) trusty; urgency=medium
+
+  * New release
+  * ap: cleanup whitespace
+  * ap: respect manually configured channel list
+  * Git(90dba1cdbeb863f8de7865085ddd33621df4ba6a)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Thu, 22 Sep 2016 12:17:01 +0300
+
 puavo-wlan (0.19.0) trusty; urgency=medium
 
   * New release
