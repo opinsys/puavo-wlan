@@ -1,3 +1,13 @@
+puavo-wlan (0.20.1) trusty; urgency=medium
+
+  * New release
+  * ap: fix STA rate calculations
+  * ap: fix AP rate calculations
+  * ap: include current configuration in status reports
+  * Git(d30119f35dcb7dcd9088ef84d9d0445c60c4919e)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Fri, 23 Sep 2016 10:53:45 +0300
+
 puavo-wlan (0.20.0) trusty; urgency=medium
 
   * New release
