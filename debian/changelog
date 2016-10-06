@@ -1,3 +1,12 @@
+puavo-wlan (0.20.2) trusty; urgency=medium
+
+  * New release
+  * Fix hostapd iface config filename to match the changed filename in
+    the current environment.
+  * Git(f33b8882e16c979018c842522bda6d6ab0739222)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Thu, 06 Oct 2016 13:28:16 +0300
+
 puavo-wlan (0.20.1) trusty; urgency=medium
 
   * New release
