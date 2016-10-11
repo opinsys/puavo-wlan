@@ -35,3 +35,7 @@ install-deb-deps:
 .PHONY : deb
 deb:
 	dpkg-buildpackage -us -uc
+
+.PHONY : deb-binary-arch
+deb-binary-arch : debiandir
+	dpkg-buildpackage -B -us -uc
