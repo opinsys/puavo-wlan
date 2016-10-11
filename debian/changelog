@@ -1,3 +1,11 @@
+puavo-wlan (0.20.3) trusty; urgency=medium
+
+  * New release
+  * ci.sh: build all only on i386, on amd64, build just binary-arch
+  * Git(6b988468271826f93825ac19ba971a2dc1d23a1d)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 11 Oct 2016 13:50:29 +0300
+
 puavo-wlan (0.20.2) trusty; urgency=medium
 
   * New release
