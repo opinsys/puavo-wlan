@@ -37,5 +37,5 @@ deb:
 	dpkg-buildpackage -us -uc
 
 .PHONY : deb-binary-arch
-deb-binary-arch : debiandir
+deb-binary-arch :
 	dpkg-buildpackage -B -us -uc
