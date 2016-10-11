@@ -1,3 +1,11 @@
+puavo-wlan (0.20.4) trusty; urgency=medium
+
+  * New release
+  * Remove missing make prerequisite
+  * Git(0a8cf83d5a5e68e4b5e3a2bda4d3b045317d2ec6)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 11 Oct 2016 13:59:59 +0300
+
 puavo-wlan (0.20.3) trusty; urgency=medium
 
   * New release
