@@ -1,3 +1,11 @@
+puavo-wlan (0.20.6) trusty; urgency=medium
+
+  * New release
+  * ap: do not spam stderr with status report errors
+  * Git(771fd29473cc709de60f77e08317a51e4116c81c)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Thu, 24 Nov 2016 15:13:04 +0200
+
 puavo-wlan (0.20.5) trusty; urgency=medium
 
   * New release
